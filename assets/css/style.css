@@ -1,0 +1,92 @@
+.container{
+  width: 800px;
+  height: 900px;
+}
+
+.kotaksatu, .kotakdua, .kotaktiga, .kotakempat, .kotaklima, .kotakenam {
+  height: 300px;
+}
+
+.kotaksatu, .kotaktiga {
+  font-family: arial;
+}
+
+.kotakdua, .kotakempat{
+  font-family: 'Times New Roman';
+}
+
+.kotaklima, .kotakenam{
+  font-family: Courier;
+}
+
+.barissatu, .barisdua, .baristiga{
+  display: flex;
+}
+
+.kotaksatu{
+  width: 400px;
+  background-color: blue;
+}
+
+.kotaksatu p{
+  margin-left: 380px;
+  margin-top: 90px;
+}
+
+.kotakdua{
+  width: 400px;
+  background-color: green;
+}
+
+.kotakdua p{
+  text-align: right;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+
+.pemisah{
+  margin-top: 10px;
+}
+
+.kotaktiga{
+  width: 600px;
+  background-color: grey;
+}
+
+.kotaktiga p{
+  margin-top: 260px; /*saya mendapatkan angka tiga agar sampai kebawah di garis bawahnya itu dimargin dari top sebesar 285,
+    jadi margin top=285 - 25= 260 */
+  margin-left: 200px;
+}
+
+.kotakempat{
+  width: 200px;
+  background-color: pink;
+}
+
+.kotakempat p{
+  margin-top: 150px;
+  text-align: right;
+  margin-right: 80px;
+}
+
+.kotaklima{
+  width: 500px;
+  background-color: yellow;
+}
+
+.kotaklima p{
+  margin-top: 75px; /* saya mendapatkan angka lima agar sampai kebawah di garis bawahnya itu dimargin dari top sebesar 285,
+    jadi margin top=285 - 210= 75*/
+  margin-left: 90px;
+}
+
+.kotakenam{
+  width: 300px;
+  background-color: orange;
+}
+
+.kotakenam p{
+  margin-left: 20px;
+  margin-top: 265px; /*saya mendapatkan angka enam agar sampai kebawah di garis bawahnya itu dimargin dari top sebesar 285, jadi margin top = 285 - 20 = 265*/
+}
